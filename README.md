@@ -28,7 +28,7 @@ This provider makes available to Terraform all the docker-machine drivers as res
 
 Finally the state of the machine can be set using the attribute "state", either "running" or "stopped". Upon refresh, state will contain the actual state of the machine, lowercased.
 
-Currently, any change to resource attributes, except for the "state" attribute", will trigger a destroy-create cycle.
+Currently, any change to resource attributes, except for the "state" attribute, will trigger a destroy-create cycle.
 
 ### Example
 
