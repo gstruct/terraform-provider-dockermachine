@@ -1,0 +1,8 @@
+repo: github.com/giacomocariello/terraform-provider-dockermachine
+build:
+  binary: terraform-provider-dockermachine
+  goos:
+    - darwin
+    - linux
+  goarch:
+    - amd64

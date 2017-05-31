@@ -6,3 +6,4 @@ install:
   - (cd $GOPATH/src/github.com/Masterminds/glide && git checkout v0.12.3 && go install)
   - glide install
 script: go test $(go list ./... 2>/dev/null | grep -v /vendor/)
+after_success: test -n "$TRAVIS_TAG" && curl -s https://raw.githubusercontent.com/goreleaser/get/master/latest | bash
