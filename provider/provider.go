@@ -22,19 +22,19 @@ func Provider() terraform.ResourceProvider {
 		ConfigureFunc: providerConfigure,
 		ResourcesMap:  resourceMap,
 		Schema: map[string]*schema.Schema{
-			"debug": &schema.Schema{
+			"debug": {
 				Type:        schema.TypeBool,
 				Optional:    true,
 				Default:     false,
 				Description: "docker-machine debug output",
 			},
-			"storage_path": &schema.Schema{
+			"storage_path": {
 				Type:        schema.TypeString,
 				Optional:    true,
 				DefaultFunc: storagePathDefault,
 				Description: "docker-machine storage path",
 			},
-			"certs_directory": &schema.Schema{
+			"certs_directory": {
 				Type:        schema.TypeString,
 				Optional:    true,
 				DefaultFunc: certsDirDefault,

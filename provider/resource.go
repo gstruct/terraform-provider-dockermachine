@@ -30,149 +30,149 @@ import (
 func resource(driverName string) *schema.Resource {
 	drv := getDriver(driverName, "", "")
 	resourceSchema := map[string]*schema.Schema{
-		"name": &schema.Schema{
+		"name": {
 			Type:     schema.TypeString,
 			Required: true,
 			ForceNew: true,
 		},
-		"certs_directory": &schema.Schema{
+		"certs_directory": {
 			Type:     schema.TypeString,
 			Computed: true,
 			ForceNew: true,
 		},
-		"tls_ca_cert": &schema.Schema{
+		"tls_ca_cert": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"tls_ca_key": &schema.Schema{
+		"tls_ca_key": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"tls_client_cert": &schema.Schema{
+		"tls_client_cert": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"tls_client_key": &schema.Schema{
+		"tls_client_key": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"tls_server_cert": &schema.Schema{
-			Type:     schema.TypeString,
-			Computed: true,
-		},
-		"tls_server_key": &schema.Schema{
+		"tls_server_cert": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"storage_path": &schema.Schema{
-			Type:     schema.TypeString,
-			Optional: true,
-			ForceNew: true,
-		},
-		"storage_path_computed": &schema.Schema{
+		"tls_server_key": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"tls_san": &schema.Schema{
-			Type:     schema.TypeList,
-			Optional: true,
-			Elem: &schema.Schema{
-				Type: schema.TypeString,
-			},
-			ForceNew: true,
-		},
-		"engine_opt": &schema.Schema{
-			Type:     schema.TypeList,
-			Optional: true,
-			Elem: &schema.Schema{
-				Type: schema.TypeString,
-			},
-			ForceNew: true,
-		},
-		"engine_env": &schema.Schema{
-			Type:     schema.TypeList,
-			Optional: true,
-			Elem: &schema.Schema{
-				Type: schema.TypeString,
-			},
-			ForceNew: true,
-		},
-		"engine_insecure_registry": &schema.Schema{
-			Type:     schema.TypeList,
-			Optional: true,
-			Elem: &schema.Schema{
-				Type: schema.TypeString,
-			},
-			ForceNew: true,
-		},
-		"engine_label": &schema.Schema{
-			Type:     schema.TypeList,
-			Optional: true,
-			Elem: &schema.Schema{
-				Type: schema.TypeString,
-			},
-			ForceNew: true,
-		},
-		"engine_registry_mirror": &schema.Schema{
-			Type:     schema.TypeList,
-			Optional: true,
-			Elem: &schema.Schema{
-				Type: schema.TypeString,
-			},
-			ForceNew: true,
-		},
-		"engine_storage_driver": &schema.Schema{
+		"storage_path": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"engine_install_url": &schema.Schema{
+		"storage_path_computed": {
+			Type:     schema.TypeString,
+			Computed: true,
+		},
+		"tls_san": {
+			Type:     schema.TypeList,
+			Optional: true,
+			Elem: &schema.Schema{
+				Type: schema.TypeString,
+			},
+			ForceNew: true,
+		},
+		"engine_opt": {
+			Type:     schema.TypeList,
+			Optional: true,
+			Elem: &schema.Schema{
+				Type: schema.TypeString,
+			},
+			ForceNew: true,
+		},
+		"engine_env": {
+			Type:     schema.TypeList,
+			Optional: true,
+			Elem: &schema.Schema{
+				Type: schema.TypeString,
+			},
+			ForceNew: true,
+		},
+		"engine_insecure_registry": {
+			Type:     schema.TypeList,
+			Optional: true,
+			Elem: &schema.Schema{
+				Type: schema.TypeString,
+			},
+			ForceNew: true,
+		},
+		"engine_label": {
+			Type:     schema.TypeList,
+			Optional: true,
+			Elem: &schema.Schema{
+				Type: schema.TypeString,
+			},
+			ForceNew: true,
+		},
+		"engine_registry_mirror": {
+			Type:     schema.TypeList,
+			Optional: true,
+			Elem: &schema.Schema{
+				Type: schema.TypeString,
+			},
+			ForceNew: true,
+		},
+		"engine_storage_driver": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"swarm": &schema.Schema{
+		"engine_install_url": {
+			Type:     schema.TypeString,
+			Optional: true,
+			ForceNew: true,
+		},
+		"swarm": {
 			Type:     schema.TypeBool,
 			Optional: true,
 			Default:  false,
 			ForceNew: true,
 		},
-		"swarm_master": &schema.Schema{
+		"swarm_master": {
 			Type:     schema.TypeBool,
 			Optional: true,
 			Default:  false,
 			ForceNew: true,
 		},
-		"swarm_image": &schema.Schema{
+		"swarm_image": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"swarm_discovery": &schema.Schema{
+		"swarm_discovery": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"swarm_addr": &schema.Schema{
+		"swarm_addr": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"swarm_host": &schema.Schema{
+		"swarm_host": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"swarm_strategy": &schema.Schema{
+		"swarm_strategy": {
 			Type:     schema.TypeString,
 			Optional: true,
 			ForceNew: true,
 		},
-		"swarm_opt": &schema.Schema{
+		"swarm_opt": {
 			Type:     schema.TypeList,
 			Optional: true,
 			Elem: &schema.Schema{
@@ -180,7 +180,7 @@ func resource(driverName string) *schema.Resource {
 			},
 			ForceNew: true,
 		},
-		"swarm_join_opt": &schema.Schema{
+		"swarm_join_opt": {
 			Type:     schema.TypeList,
 			Optional: true,
 			Elem: &schema.Schema{
@@ -188,41 +188,41 @@ func resource(driverName string) *schema.Resource {
 			},
 			ForceNew: true,
 		},
-		"swarm_experimental": &schema.Schema{
+		"swarm_experimental": {
 			Type:     schema.TypeBool,
 			Optional: true,
 			Default:  false,
 			ForceNew: true,
 		},
-		"ssh_hostname": &schema.Schema{
+		"ssh_hostname": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"ssh_port": &schema.Schema{
+		"ssh_port": {
 			Type:     schema.TypeInt,
 			Computed: true,
 		},
-		"ssh_username": &schema.Schema{
+		"ssh_username": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"ssh_keypath": &schema.Schema{
+		"ssh_keypath": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"address": &schema.Schema{
+		"address": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"docker_url": &schema.Schema{
+		"docker_url": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"docker_version": &schema.Schema{
+		"docker_version": {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
-		"state": &schema.Schema{
+		"state": {
 			Type:         schema.TypeString,
 			Optional:     true,
 			Default:      "running",
