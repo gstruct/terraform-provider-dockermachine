@@ -17,7 +17,8 @@ $ go get github.com/giacomocariello/terraform-provider-dockermachine
 ## Usage
 
 This provider makes available to Terraform all the docker-machine drivers as resources named "dockermachine\_\<drivername\>".  
-All the creation flags of each driver (common or specific) are available as attributes of the resource, with dash characters ("-") replaced by underlines ("_"). Furthermore, the following computed attributes are available:
+All the creation flags of each driver (common or specific) are available as attributes of the resource, with dash characters ("-") replaced by underlines ("_").  
+Furthermore, the following computed attributes are available:
 
 * **address**: IP address of the docker machine
 * **docker\_url**: URL of the docker daemon
@@ -30,6 +31,12 @@ All the creation flags of each driver (common or specific) are available as attr
 Finally the state of the machine can be set using the attribute "state", either "running" or "stopped". Upon refresh, state will contain the actual state of the machine, lowercased.
 
 Currently, any change to resource attributes, except for the "state" attribute, will trigger a destroy-create cycle.
+
+The following parameters can be set at provider level:
+
+* **debug**: boolean, enables docker-machine debug output in Terraform log
+* **storage_path**: set default storage path for docker-machine
+* **certs_directory**: set default path for docker-machine certs directory
 
 ### Example
 
