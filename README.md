@@ -16,7 +16,7 @@ $ go get github.com/giacomocariello/terraform-provider-dockermachine
 
 ## Usage
 
-This provider makes available to Terraform all the docker-machine drivers as resources as "dockermachine_<drivername>". All the creation flags of each driver (common or specific) are available as attributes of the resource. Furthermore, the following computed attributes are available:
+This provider makes available to Terraform all the docker-machine drivers as resources named "dockermachine_\<drivername\>". All the creation flags of each driver (common or specific) are available as attributes of the resource. Furthermore, the following computed attributes are available:
 
 * address: IP address of the docker machine
 * docker_url: URL of the docker daemon
