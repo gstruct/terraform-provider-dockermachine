@@ -17,6 +17,9 @@ terraform-provider-dockermachine
 # Vendor dependencies folder
 vendor/
 
+# Dist folder
+dist/
+
 # Miscellanea
 .DS_Store
 
