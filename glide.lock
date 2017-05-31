@@ -1,5 +1,5 @@
 hash: b648bebd96d56bfdcc81681b318ef12f3339b8d8292fd3b4b883d04d92849996
-updated: 2017-05-30T16:00:29.48025946+02:00
+updated: 2017-05-31T10:59:34.86543535+02:00
 imports:
 - name: github.com/apparentlymart/go-cidr
   version: 7e4b007599d4e2076d9a81be723b3912852dda2c
@@ -56,8 +56,6 @@ imports:
   version: 9fd32a8b3d3d3f9d43c341bfe098430e07609480
   subpackages:
   - netrc
-- name: github.com/blang/semver
-  version: 4a1e882c79dcf4ec00d2e29fac74b9c8938d5052
 - name: github.com/bugsnag/bugsnag-go
   version: 02e952891c52fbcb15f113d90633897355783b6e
   subpackages:
@@ -107,6 +105,7 @@ imports:
   - libmachine/check
   - libmachine/crashreport
   - libmachine/drivers
+  - libmachine/drivers/plugin
   - libmachine/drivers/plugin/localbinary
   - libmachine/drivers/rpc
   - libmachine/engine
@@ -169,7 +168,7 @@ imports:
   - parser
   - scanner
 - name: github.com/hashicorp/terraform
-  version: 9a2249ff099a10f261a32f4ac152e74fab0c3163
+  version: b00d6f47cf22c27231b36684f7feb225c8d5ae3d
   subpackages:
   - config
   - config/module
@@ -180,9 +179,9 @@ imports:
   - helper/hilmapstructure
   - helper/schema
   - helper/shadow
-  - moduledeps
+  - helper/structure
+  - helper/validation
   - plugin
-  - plugin/discovery
   - terraform
 - name: github.com/hashicorp/yamux
   version: d1caa6c97c9fc1cc9e83bbe34d0603f9ff0ce8bd
@@ -257,6 +256,8 @@ imports:
 - name: golang.org/x/crypto
   version: beef0f4390813b96e8e68fd78570396d0f4751fc
   subpackages:
+  - bcrypt
+  - blowfish
   - curve25519
   - ssh
   - ssh/terminal
@@ -265,8 +266,6 @@ imports:
   subpackages:
   - context
   - context/ctxhttp
-  - html
-  - html/atom
 - name: golang.org/x/oauth2
   version: 442624c9ec9243441e83b374a9e22ac549b5c51d
   subpackages:
