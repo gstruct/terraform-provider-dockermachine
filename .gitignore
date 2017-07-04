@@ -15,7 +15,7 @@ terraform-provider-dockermachine
 .glide/
 
 # Vendor dependencies folder
-vendor/
+vendor/*/
 
 # Dist folder
 dist/
