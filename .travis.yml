@@ -2,8 +2,8 @@ language: go
 go:
   - 1.8.x
 install:
-  - go get -d -v github.com/Masterminds/glide
-  - (cd $GOPATH/src/github.com/Masterminds/glide && git checkout v0.12.3 && go install)
-  - glide install
+  - go get -d github.com/kardianos/govendor
+  - (cd $GOPATH/src/github.com/kardianos/govendor && git checkout v1.0.8 && go install)
+  - govendor sync
 script: go test $(go list ./... 2>/dev/null | grep -v /vendor/)
 after_success: test -n "$TRAVIS_TAG" && curl -s https://raw.githubusercontent.com/goreleaser/get/master/latest | bash
