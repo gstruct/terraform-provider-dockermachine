@@ -891,6 +891,12 @@
 			"revisionTime": "2014-10-28T05:47:10Z"
 		},
 		{
+			"checksumSHA1": "b8F628srIitj5p7Y130xc9k0QWs=",
+			"path": "github.com/hashicorp/go-cleanhttp",
+			"revision": "3573b8b52aa7b37b9358d966a898feb387f62437",
+			"revisionTime": "2017-02-11T01:34:15Z"
+		},
+		{
 			"checksumSHA1": "N9ipwqAEQQ0gEsWMJZlFbRL/Mvk=",
 			"path": "github.com/hashicorp/go-getter",
 			"revision": "90b6568eac830f62a08e8f1f46375daa63e57015",
@@ -1077,15 +1083,16 @@
 			"revisionTime": "2017-07-03T21:44:14Z"
 		},
 		{
-			"checksumSHA1": "6AA7ZAzswfl7SOzleP6e6he0lq4=",
+			"checksumSHA1": "4ODNVUds3lyBf7gV02X1EeYR4GA=",
 			"path": "github.com/hashicorp/terraform/plugin",
-			"revision": "efca455c35d0d218a9bfee835a8ec3ef8d4d1c8c",
+			"revision": "41fc408ed0c3d4eb6f9c50cadf627b703833b137",
 			"revisionTime": "2017-07-03T20:27:28Z"
 		},
 		{
-			"checksumSHA1": "Maa86NKCQVVNGCgyrRD6fe+/HQ0=",
+			"checksumSHA1": "9EcqWQpbLB0AVSHfIJcJdMvS4gg=",
 			"path": "github.com/hashicorp/terraform/plugin/discovery",
-			"revision": "efca455c35d0d218a9bfee835a8ec3ef8d4d1c8c"
+			"revision": "41fc408ed0c3d4eb6f9c50cadf627b703833b137",
+			"revisionTime": "2017-07-03T21:44:14Z"
 		},
 		{
 			"checksumSHA1": "0cM4E1MtJD5ESkjxxwYH9nkNtX4=",
