@@ -1611,10 +1611,10 @@
 			"revisionTime": "2015-11-16T21:49:40Z"
 		},
 		{
-			"checksumSHA1": "gnVnr0Q7xKmijhKX7baI9bHSl2M=",
+			"checksumSHA1": "tS9B7JRfbkBNQHl0i0AGj+r1ruk=",
 			"path": "golang.org/x/sys/unix",
-			"revision": "d9157a9621b69ad1d8d77a1933590c416593f24f",
-			"revisionTime": "2015-02-01T16:04:03Z"
+			"revision": "90796e5a05ce440b41c768bd9af257005e470461",
+			"revisionTime": "2017-06-27T07:55:33Z"
 		},
 		{
 			"checksumSHA1": "eMNHNAV71hl2K8XAUDl5JM+LpU0=",
