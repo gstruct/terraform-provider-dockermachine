@@ -3,39 +3,10 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "8x1rCDRx7EWPJYL8KFB0ik+MptY=",
+			"checksumSHA1": "/LLKrODQx12zW3aQIkZ5nqBlrTU=",
 			"path": "github.com/Azure/azure-sdk-for-go",
-			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616"
-		},
-		{
-			"checksumSHA1": "ndoTo9HTATazQPZiPzq5rFYJhHM=",
-			"path": "github.com/Azure/azure-sdk-for-go/arm/compute",
-			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616"
-		},
-		{
-			"checksumSHA1": "33Eny6aOVU6MjMYlfzufuo9OdCk=",
-			"path": "github.com/Azure/azure-sdk-for-go/arm/network",
-			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616"
-		},
-		{
-			"checksumSHA1": "8rreGMFmUgD89dr4TzfUQOiJJbk=",
-			"path": "github.com/Azure/azure-sdk-for-go/arm/resources/resources",
-			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616"
-		},
-		{
-			"checksumSHA1": "58GqfuqUwISqLS0vvLV3VEtI3as=",
-			"path": "github.com/Azure/azure-sdk-for-go/arm/resources/subscriptions",
-			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616"
-		},
-		{
-			"checksumSHA1": "FKbsaZkfT8fHDGlTzK1fdK44Ufc=",
-			"path": "github.com/Azure/azure-sdk-for-go/arm/storage",
-			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616"
-		},
-		{
-			"checksumSHA1": "T1DpzOaZGsKlUq16elkdwF6ddsU=",
-			"path": "github.com/Azure/azure-sdk-for-go/storage",
-			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616"
+			"revision": "91f3d4a4d024e3c0d4d9412916d05cf84504a616",
+			"tree": true
 		},
 		{
 			"checksumSHA1": "bCMrkVCWCy4bUP0skHt5RPx8shY=",
@@ -78,144 +49,10 @@
 			"revision": "7e4b007599d4e2076d9a81be723b3912852dda2c"
 		},
 		{
-			"checksumSHA1": "kuw5W2UI5k2VXP9R34go1SBms9k=",
+			"checksumSHA1": "soz7wRqC+tGpiCfh8OJ65tdAudU=",
 			"path": "github.com/aws/aws-sdk-go",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "Ex4zN+CcY/wtoDoK/penrVAxAok=",
-			"path": "github.com/aws/aws-sdk-go/aws",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "Y9W+4GimK4Fuxq+vyIskVYFRnX4=",
-			"path": "github.com/aws/aws-sdk-go/aws/awserr",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "+q4vdl3l1Wom8K1wfIpJ4jlFsbY=",
-			"path": "github.com/aws/aws-sdk-go/aws/awsutil",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "H/tMKHZU+Qka6RtYiGB50s2uA0s=",
-			"path": "github.com/aws/aws-sdk-go/aws/client",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "ieAJ+Cvp/PKv1LpUEnUXpc3OI6E=",
-			"path": "github.com/aws/aws-sdk-go/aws/client/metadata",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "gNWirlrTfSLbOe421hISBAhTqa4=",
-			"path": "github.com/aws/aws-sdk-go/aws/corehandlers",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "dNZNaOPfBPnzE2CBnfhXXZ9g9jU=",
-			"path": "github.com/aws/aws-sdk-go/aws/credentials",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "KQiUK/zr3mqnAXD7x/X55/iNme0=",
-			"path": "github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "NUJUTWlc1sV8b7WjfiYc4JZbXl0=",
-			"path": "github.com/aws/aws-sdk-go/aws/credentials/endpointcreds",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "4Ipx+5xN0gso+cENC2MHMWmQlR4=",
-			"path": "github.com/aws/aws-sdk-go/aws/credentials/stscreds",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "nCMd1XKjgV21bEl7J8VZFqTV8PE=",
-			"path": "github.com/aws/aws-sdk-go/aws/defaults",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "U0SthWum+t9ACanK7SDJOg3dO6M=",
-			"path": "github.com/aws/aws-sdk-go/aws/ec2metadata",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "NyUg1P8ZS/LHAAQAk/4C5O4X3og=",
-			"path": "github.com/aws/aws-sdk-go/aws/request",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "44uohX3kLsfZHHOqunr+qJnSCdw=",
-			"path": "github.com/aws/aws-sdk-go/aws/session",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "7lla+sckQeF18wORAGuU2fFMlp4=",
-			"path": "github.com/aws/aws-sdk-go/aws/signer/v4",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "Bm6UrYb2QCzpYseLwwgw6aetgRc=",
-			"path": "github.com/aws/aws-sdk-go/private/endpoints",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "wk7EyvDaHwb5qqoOP/4d3cV0708=",
-			"path": "github.com/aws/aws-sdk-go/private/protocol",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "uNmSKXAF8B9HWEciW+iyUwZ99qQ=",
-			"path": "github.com/aws/aws-sdk-go/private/protocol/ec2query",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "isoix7lTx4qIq2zI2xFADtti5SI=",
-			"path": "github.com/aws/aws-sdk-go/private/protocol/query",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "5xzix1R8prUyWxgLnzUQoxTsfik=",
-			"path": "github.com/aws/aws-sdk-go/private/protocol/query/queryutil",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "TW/7U+/8ormL7acf6z2rv2hDD+s=",
-			"path": "github.com/aws/aws-sdk-go/private/protocol/rest",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "Y6Db2GGfGD9LPpcJIPj8vXE8BbQ=",
-			"path": "github.com/aws/aws-sdk-go/private/protocol/restxml",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "eUEkjyMPAuekKBE4ou+nM9tXEas=",
-			"path": "github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "Eo9yODN5U99BK0pMzoqnBm7PCrY=",
-			"path": "github.com/aws/aws-sdk-go/private/waiter",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "FiQmUvjtJfroyEr3dFUSChrpq08=",
-			"path": "github.com/aws/aws-sdk-go/service/ec2",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "imxJucuPrgaPRMPtAgsu+Y7soB4=",
-			"path": "github.com/aws/aws-sdk-go/service/s3",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
-		},
-		{
-			"checksumSHA1": "nH/itbdeFHpl4ysegdtgww9bFSA=",
-			"path": "github.com/aws/aws-sdk-go/service/sts",
-			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda"
+			"revision": "ddfd17ec06eee10c24c5c474633273fd034afdda",
+			"tree": true
 		},
 		{
 			"checksumSHA1": "oYZergvEgkC0OdIz7drLY5ZMzWg=",
@@ -263,14 +100,10 @@
 			"revision": "d59ed2fe842bbb3cbee91c9df8bb7659dc9ee86f"
 		},
 		{
-			"checksumSHA1": "2tSaB25KMl+PZnI88bKXyfal6I0=",
+			"checksumSHA1": "d4LymF0WIPa5mKmytQMSTcRs8+I=",
 			"path": "github.com/docker/docker",
-			"revision": "a8a31eff10544860d2188dddabdee4d727545796"
-		},
-		{
-			"checksumSHA1": "7uoXh/xatGnyfoA+Xp9acWPnxos=",
-			"path": "github.com/docker/docker/pkg/term",
-			"revision": "a8a31eff10544860d2188dddabdee4d727545796"
+			"revision": "a8a31eff10544860d2188dddabdee4d727545796",
+			"tree": true
 		},
 		{
 			"checksumSHA1": "qGXit74pcrjdCsusaYiwRsC4rnQ=",
@@ -278,244 +111,10 @@
 			"revision": "0bbddae09c5a5419a8c6dcdd7ff90da3d450393b"
 		},
 		{
-			"checksumSHA1": "uV9HfxUrHh9+1NUQobF9bXlCt2Y=",
+			"checksumSHA1": "+f0QNG2zDJHDGefy7/wHuu1wwvA=",
 			"path": "github.com/docker/machine",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "ieo6ruJi4pbY/VW20dOHzEAL+hk=",
-			"path": "github.com/docker/machine/commands/mcndirs",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "dx9/+wsl2uj2BMqPcseUkei0ob0=",
-			"path": "github.com/docker/machine/drivers/amazonec2",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "ffR3ULDzReauOS/GJxm9fYk/CxY=",
-			"path": "github.com/docker/machine/drivers/azure",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "QXPPmEUcJC11MMwSpn/FMLg1EJw=",
-			"path": "github.com/docker/machine/drivers/azure/azureutil",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "v6TNmwgTDVuG2cghrXQIFN9GPX0=",
-			"path": "github.com/docker/machine/drivers/azure/logutil",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "dyTCduE1BTUvMfa3iAXUvcGuHFc=",
-			"path": "github.com/docker/machine/drivers/digitalocean",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "BFT0xoDjEtnbyMB7qfFzaB4Qcys=",
-			"path": "github.com/docker/machine/drivers/driverutil",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "lykJWzEHIFQ2APXh5EBoeF7CUQg=",
-			"path": "github.com/docker/machine/drivers/errdriver",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "ygXI9G8jI+wIIZeAWGql+swk1V0=",
-			"path": "github.com/docker/machine/drivers/exoscale",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "5p0FKXz8IGR5m1v7juRyHiHJ11s=",
-			"path": "github.com/docker/machine/drivers/generic",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "q8uwDM69r/eZ0MFUS8tl1yEtb+8=",
-			"path": "github.com/docker/machine/drivers/google",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "JngrD3SkkFNNcNbUsKR59AS510Y=",
-			"path": "github.com/docker/machine/drivers/hyperv",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "jRoHFfodTW1QN68up3nxSzkMVQg=",
-			"path": "github.com/docker/machine/drivers/none",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "1HWd4CWZbbVtLfIoa2Na0en2cmk=",
-			"path": "github.com/docker/machine/drivers/openstack",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "XF8cKzBWeYi/wCZNI/7DgQRSDqI=",
-			"path": "github.com/docker/machine/drivers/rackspace",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "5dxvRlo1LeKp6zxA7+2O/8ZGe/Y=",
-			"path": "github.com/docker/machine/drivers/softlayer",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "8wwE1zfGbW/IqJE2M75jmLaCJNM=",
-			"path": "github.com/docker/machine/drivers/virtualbox",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "L0H3CEd1IZV24EIhoV3v/DwgewM=",
-			"path": "github.com/docker/machine/drivers/vmwarefusion",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "1HrLgXX9/QJZp/87KZ77tVAYtVs=",
-			"path": "github.com/docker/machine/drivers/vmwarevcloudair",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "VaVUEERqJmTNe6hDtF3wZjduNiE=",
-			"path": "github.com/docker/machine/drivers/vmwarevsphere",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "kFRpO2WaCQ9PBputhZuWNi4o4+s=",
-			"path": "github.com/docker/machine/libmachine",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "6x0/ZuUs+PghQJiw16XgYrLf+/U=",
-			"path": "github.com/docker/machine/libmachine/auth",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "vCm+ysvI3GtXdI33nd+s8ypib8g=",
-			"path": "github.com/docker/machine/libmachine/cert",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "0jeYfbht7MrSraGjFXE61aL+6rQ=",
-			"path": "github.com/docker/machine/libmachine/check",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "5jMG1f9timLbpyblRYOSQxZNGII=",
-			"path": "github.com/docker/machine/libmachine/crashreport",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "d8M3PcCAioICBrmdU5L8m3lfl/Q=",
-			"path": "github.com/docker/machine/libmachine/drivers",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "b6FiGli26lMxC8618Y3QfmTluRE=",
-			"path": "github.com/docker/machine/libmachine/drivers/plugin",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "2hNSE9dzQg/RLX17++mtfCQ3Wgs=",
-			"path": "github.com/docker/machine/libmachine/drivers/plugin/localbinary",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "8v9ClSqOpYREmiOAZR2Zve5Y32c=",
-			"path": "github.com/docker/machine/libmachine/drivers/rpc",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "7Q/gcV3glqiA424vVMv4DHyy/sQ=",
-			"path": "github.com/docker/machine/libmachine/engine",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "s37x5V0wa3T5EgHISIeASljNjak=",
-			"path": "github.com/docker/machine/libmachine/host",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "pfZB2heUOImpxC+LS/xFSFDd2J8=",
-			"path": "github.com/docker/machine/libmachine/log",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "fy3AI1VbRTJWu5t6tqUrKk90zIA=",
-			"path": "github.com/docker/machine/libmachine/mcndockerclient",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "h/kursKR+iFENi26TzkWiuGQn/8=",
-			"path": "github.com/docker/machine/libmachine/mcnerror",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "XIdpqyZtMW3gLbUefSiqsJvcDpw=",
-			"path": "github.com/docker/machine/libmachine/mcnflag",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "WZq3NS1/0CN7IyeZqH+AugPzm7k=",
-			"path": "github.com/docker/machine/libmachine/mcnutils",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "p08GXfgrmbLmIrouexqpYMSTZy4=",
-			"path": "github.com/docker/machine/libmachine/persist",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "xH63hnJYirclA8Iy2bRSQ3P/HGI=",
-			"path": "github.com/docker/machine/libmachine/provision",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "xSv91fpMzeMcRDT0ksm0iGl7Oy0=",
-			"path": "github.com/docker/machine/libmachine/provision/pkgaction",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "er2qXjVZOdZJ/n4TD6XVyo6smRs=",
-			"path": "github.com/docker/machine/libmachine/provision/serviceaction",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "N5ZEGvWXexvi+gGLzrNfx5EGwCo=",
-			"path": "github.com/docker/machine/libmachine/shell",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "Y8iIX+HxvvFrTYY44gARFxG1xYM=",
-			"path": "github.com/docker/machine/libmachine/ssh",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "a6bG+ux4k1XPcMoDrZSyjVhQ4cA=",
-			"path": "github.com/docker/machine/libmachine/state",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "z2qV0dprh3+jLREaDH5obUmG1nY=",
-			"path": "github.com/docker/machine/libmachine/swarm",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "q2r55GR/IIt8lDiXJYGsEdzQQqc=",
-			"path": "github.com/docker/machine/libmachine/version",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "CwGJ6BSszYovpwBU4hZ7bE+t9gc=",
-			"path": "github.com/docker/machine/libmachine/versioncmp",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
-		},
-		{
-			"checksumSHA1": "MWGDFrlBCloEyoZVNurVDiv8YQs=",
-			"path": "github.com/docker/machine/version",
-			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60"
+			"revision": "5b274558ea6ca822c06dd407a4e774a0105c3f60",
+			"tree": true
 		},
 		{
 			"checksumSHA1": "xwl6RN1KelFEBET0MQ28xyTFqdo=",
@@ -643,74 +242,10 @@
 			"revision": "fac2259da677551de1fb92b844c4d020a38d8468"
 		},
 		{
-			"checksumSHA1": "lInJD1dCt3YMsECup9Ove0oSeZU=",
+			"checksumSHA1": "dAyng8yCdvTdtmAMIYF4beZVbZk=",
 			"path": "github.com/hashicorp/terraform",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "zLSwoOvC3rytBSarIzRc0tGxC9o=",
-			"path": "github.com/hashicorp/terraform/config",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "YiREjXkb7CDMZuUmkPGK0yySe8A=",
-			"path": "github.com/hashicorp/terraform/config/module",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "w+l+UGTmwYNJ+L0p2vTd6+yqjok=",
-			"path": "github.com/hashicorp/terraform/dag",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "p4y7tbu9KD/3cKQKe92I3DyjgRc=",
-			"path": "github.com/hashicorp/terraform/flatmap",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "Vbo55GDzPgG/L/+W2pcvDhxrPZc=",
-			"path": "github.com/hashicorp/terraform/helper/experiment",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "BmIPKTr0zDutSJdyq7pYXrK1I3E=",
-			"path": "github.com/hashicorp/terraform/helper/hashcode",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "B267stWNQd0/pBTXHfI/tJsxzfc=",
-			"path": "github.com/hashicorp/terraform/helper/hilmapstructure",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "H6p4WG5EuQxssqWf5v9uWJ3F5/k=",
-			"path": "github.com/hashicorp/terraform/helper/schema",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "oLui7dYxhzfAczwwdNZDm4tzHtk=",
-			"path": "github.com/hashicorp/terraform/helper/shadow",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "Fzbv+N7hFXOtrR6E7ZcHT3jEE9s=",
-			"path": "github.com/hashicorp/terraform/helper/structure",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "Q3gCaw8WD99fSYwYZlXJ2+MVQh4=",
-			"path": "github.com/hashicorp/terraform/helper/validation",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "6AA7ZAzswfl7SOzleP6e6he0lq4=",
-			"path": "github.com/hashicorp/terraform/plugin",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
-		},
-		{
-			"checksumSHA1": "qTzMMVYam36sev8TNhFrgg+wL7c=",
-			"path": "github.com/hashicorp/terraform/terraform",
-			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d"
+			"revision": "85e0979c6af6a15345c9131e4478ba712bb3c21d",
+			"tree": true
 		},
 		{
 			"checksumSHA1": "ZhK6IO2XN81Y+3RAjTcVm1Ic7oU=",
