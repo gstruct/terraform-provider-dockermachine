@@ -324,13 +324,13 @@ func getDriverOpts(d *schema.ResourceData, mcnflags []mcnflag.Flag) drivers.Driv
 
 		schemaOpt := strings.Replace(f.String(), "-", "_", -1)
 		switch f.(type) {
-		case mcnflag.StringFlag:
+		case *mcnflag.StringFlag:
 			driverOpts.Values[f.String()] = d.Get(schemaOpt).(string)
-		case mcnflag.StringSliceFlag:
+		case *mcnflag.StringSliceFlag:
 			driverOpts.Values[f.String()] = ss2is(d.Get(schemaOpt).([]string))
-		case mcnflag.IntFlag:
+		case *mcnflag.IntFlag:
 			driverOpts.Values[f.String()] = d.Get(schemaOpt).(int)
-		case mcnflag.BoolFlag:
+		case *mcnflag.BoolFlag:
 			driverOpts.Values[f.String()] = d.Get(schemaOpt).(bool)
 		}
 	}
