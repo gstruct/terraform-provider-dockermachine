@@ -25,7 +25,7 @@ import (
 
 	terraform "github.com/hashicorp/terraform/plugin"
 
-	"github.com/giacomocariello/terraform-provider-dockermachine/provider"
+	"github.com/gstruct/terraform-provider-dockermachine/provider"
 )
 
 func main() {
