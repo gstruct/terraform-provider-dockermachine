@@ -23,3 +23,5 @@ dist/
 # Miscellanea
 .DS_Store
 
+# Terraform
+.terraform

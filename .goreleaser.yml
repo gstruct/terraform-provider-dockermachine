@@ -3,5 +3,6 @@ build:
   goos:
     - darwin
     - linux
+    - windows
   goarch:
     - amd64
