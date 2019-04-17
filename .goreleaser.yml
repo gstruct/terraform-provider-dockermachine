@@ -1,3 +1,8 @@
+archive:
+  format: tar.gz
+  format_overrides:
+  - goos: windows
+    format: zip
 build:
   binary: terraform-provider-dockermachine
   goos:
