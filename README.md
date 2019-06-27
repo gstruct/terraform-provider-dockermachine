@@ -10,9 +10,15 @@ Docker machine provider for Terraform
 **Note**: docker-machine is not required as its library is embedded into the provider.
 
 ## Install
+create the provider (ie, build)
 ```
 $ go get github.com/gstruct/terraform-provider-dockermachine
 ```
+make it available for terraform
+```
+$ cp $GOPATH/bin/terraform-provider-dockermachine ~/.terraform.d/plugins/
+```
+then you can use it, enjoy ;)
 
 ## Usage
 
