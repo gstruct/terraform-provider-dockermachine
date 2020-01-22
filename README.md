@@ -40,7 +40,7 @@ The following parameters can be set at provider level:
 
 ### Example
 
-```
+```terraform
 resource "dockermachine_virtualbox" "node" {
     count = 2
     name = "${format("node-%02d", count.index+1)}"
